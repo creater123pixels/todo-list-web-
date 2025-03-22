@@ -1,0 +1,117 @@
+/* General Styles */
+body { font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px; }
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1000px; 
+    margin: 50px auto; 
+    background-color: #d6aadf; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.task-form {
+    flex: 1;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.task-form input, .task-form button { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    font-size: 1.1em;
+}
+
+.task-form button { 
+    background-color: #001f3d; 
+    color: #b0d9f7; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#resetButton { 
+    background-color: #ffcc00; 
+    color: white; 
+    font-size: 1em; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    display: none; 
+}
+
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+    flex: 1;
+}
+
+li { 
+    background-color: #004d80; 
+    color: #b0d9f7; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.delete-btn { 
+    background-color: #ff4d4d; 
+    color: white; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.delete-btn:hover { 
+    background-color: #e60000; 
+}
+
+footer { 
+    position: fixed; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 1em; 
+    color: #b0d9f7; 
+    padding: 10px; 
+    background-color: #001f3d; 
+    border-radius: 5px; 
+}
+
+.password-prompt, .gender-prompt { 
+    position: fixed; 
+    top: 20%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.password-prompt input { 
+    padding: 10px; 
+    font-size: 1.1em; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    border: 2px solid #b0d9f7; 
+}
+
+.password-prompt button, .gender-prompt button { 
+    background-color: #001f3d; 
+    color: #b0d9f7; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1.2em; 
+    margin: 10px; 
+    cursor: pointer; 
+}
+
+.password-prompt button:hover, .gender-prompt button:hover { 
+    background-color: #4CAF50; 
+}
